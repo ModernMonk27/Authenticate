@@ -13,7 +13,7 @@ import cors from 'cors';
 const port = process.env.PORT || 5000;
 
 connectDB();
-generateSeedData(12);
+
 const app = express();
 app.use(cors());
 
